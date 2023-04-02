@@ -1,0 +1,50 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 5rem 4rem;
+  /*  margin: 0% 20%;*/
+}
+
+h4 {
+  font-size: 1rem;
+  color: rgb(56, 56, 56);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(56, 56, 56);
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+a {
+  color: rgb(56, 56, 56);
+}
+
+@media (max-width: 68.75em) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    padding: 3rem;
+  }
+}
+@media (max-width: 25em) {
+  body {
+    padding: 1.5rem;
+  }
+}
